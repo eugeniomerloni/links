@@ -1,9 +1,80 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Eugenio</title>
+    <title> Eugenio </title>
     <meta charset="utf-8">
     <meta name="author" content ="Eugenio">
+    
+    <style>
+      .banner img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 150px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+      }
+
+      .link img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+      }
+      
+
+      .name {
+        color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons a {
+        color: #fffffe;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .link {
+        background-color: #f9bc60;
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center horizontally */
+        margin: 0 auto;
+        padding: 10px;
+      }    
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+        display: flex;
+        margin: 0 auto;
+      }
+      * {
+        border: thin red solid;
+      }
+
+      body {
+        background-color: #004643;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    </style>
 
   </head>
 
@@ -12,20 +83,6 @@
 
 <div class="banner">
   <img src="/thumbnails/neom-2gVgVf5CNAE-unsplash.jpg" alt = "banner-image">
-  <style>
-    body {
-      padding-top: 40px;
-      padding-bottom: 40px;
-    }
-    .banner-image{
-      width: 128px;
-      height: 128px;
-      object-fit: cover;
-      border-radius: 128px;
-    }
-
-
-  </style>
 
 </div>
 
@@ -58,7 +115,6 @@
 </div>
 
 
-
 <div class="link">
   <img
     src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg">
@@ -67,6 +123,7 @@
     Life-Saving Checklist — The New Yorker
   </a>
 
+</div>
 </body>
 
 
